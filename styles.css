@@ -5,6 +5,7 @@ body {
   margin: 0;
   padding: 0;
   background-image: url("dd3c6e709404db0f066124994bf01803.png");
+  background-size: cover;
 }
 
 .container {
