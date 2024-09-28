@@ -59,6 +59,8 @@ function endCarousel() {
 }
 
 function restart() {
+  outro.style.display = 'none';
+  restartBtn.style.display = 'none;
   currentIndex = 0
   startCarousel()
 }
