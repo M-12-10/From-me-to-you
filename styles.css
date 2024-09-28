@@ -16,18 +16,19 @@ body {
 
 h1 {
   font-size: 2.5em;
-  margin-bottom: 20px;
+  color: red;
 }
 
 .carousel {
   display: none;
   position: relative;
+  margin-bottom: 20px;
 }
 
 .carousel-content {
   margin: 20px auto;
-  width: 400px;
-  height: 300px;
+  width: 800px;
+  height: 800px;
 }
 
 .image {
@@ -46,28 +47,28 @@ h1 {
   padding: 10px 20px;
   font-size: 1em;
   cursor: pointer;
-  background-color: #007BFF;
-  color: white;
+  background-color: #FFFFFF;
+  color: black;
   border: none;
   border-radius: 5px;
 }
 
 .nav-button:hover {
-  background-color: #0056b3;
+  background-color: #d9d4d4;
 }
 
 .start-button {
   padding: 10px 40px;
   font-size: 1.2em;
   cursor: pointer;
-  background-color: #28a745;
+  background-color: #FF0000;
   color: white;
   border: none;
   border-radius: 5px;
 }
 
 .start-button:hover {
-  background-color: #218838;
+  background-color: #c20a0a;
 }
 
 .outro {
