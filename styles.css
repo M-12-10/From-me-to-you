@@ -1,82 +1,96 @@
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  background-image: url("dd3c6e709404db0f066124994bf01803.png");
-  background-size: cover;
-}
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      background-image: url("dd3c6e709404db0f066124994bf01803.png");
+      background-size: cover;
+    }
 
-.container {
-  padding: 20px;
-  margin-top: 50px;
-  margin-bottom: 20px;
-}
+    .container {
+      padding: 20px;
+      margin-top: 50px;
+      margin-bottom: 20px;
+    }
 
-h1 {
-  font-size: 2.5em;
-  color: red;
-}
+    h1 {
+      font-size: 2.5em;
+      color: red;
+      margin: 0;
+    }
 
-.carousel {
-  display: none;
-  position: relative;
-  margin-bottom: 20px;
-}
+    .carousel {
+      display: none;
+      position: relative;
+      margin-bottom: 20px;
+    }
 
-.carousel-content {
-  margin: 20px auto;
-  width: 800px;
-  height: 800px;
-}
+    .carousel-content {
+      margin: 20px auto;
+      max-width: 90%;
+      height: auto;
+    }
 
-.image {
-  max-width: 100%;
-  max-height: 100%;
-  border-radius: 15px;
-}
+    .image {
+      max-width: 100%;
+      height: auto;
+      border-radius: 15px;
+    }
 
-.caption {
-  font-size: 1.5em;
-  margin-bottom: 10px;
-}
+    .caption {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+    }
 
-.nav-button {
-  margin: 10px;
-  padding: 10px 20px;
-  font-size: 1em;
-  cursor: pointer;
-  background-color: #FFFFFF;
-  color: black;
-  border: none;
-  border-radius: 5px;
-}
+    .nav-button {
+      margin: 10px;
+      padding: 10px 20px;
+      font-size: 1em;
+      cursor: pointer;
+      background-color: #FFFFFF;
+      color: black;
+      border: none;
+      border-radius: 5px;
+    }
 
-.nav-button:hover {
-  background-color: #d9d4d4;
-}
+    .nav-button:hover {
+      background-color: #d9d4d4;
+    }
 
-.start-button {
-  padding: 10px 40px;
-  font-size: 1.2em;
-  cursor: pointer;
-  background-color: #FF0000;
-  color: white;
-  border: none;
-  border-radius: 5px;
-}
+    .start-button {
+      padding: 10px 40px;
+      font-size: 1.2em;
+      cursor: pointer;
+      background-color: #FF0000;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
 
-.start-button:hover {
-  background-color: #c20a0a;
-}
+    .start-button:hover {
+      background-color: #c20a0a;
+    }
 
-.outro {
-  display: none;
-  margin-top: 30px;
-}
+    .outro {
+      display: none;
+      margin-top: 30px;
+    }
 
-.outro h2 {
-  font-size: 2.5em;
-  color: #dc3545;
-}
+    .outro h2 {
+      font-size: 2.5em;
+      color: #dc3545;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 1.8em;
+      }
+      .caption {
+        font-size: 1.2em;
+      }
+      .nav-button, .start-button {
+        padding: 8px 16px;
+        font-size: 0.9em;
+      }
+    }
