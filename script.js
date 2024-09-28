@@ -57,10 +57,3 @@ function endCarousel() {
   carousel.style.display = 'none';
   outro.style.display = 'block';
 }
-
-function restart() {
-  outro.style.display = 'none';
-  restartBtn.style.display = 'none';
-  currentIndex = 0;
-  startCarousel();
-}
