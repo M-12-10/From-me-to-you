@@ -1,4 +1,4 @@
-    body {
+  body {
       font-family: Arial, sans-serif;
       background-color: #f4f4f4;
       text-align: center;
@@ -23,13 +23,16 @@
     .carousel {
       display: none;
       position: relative;
-      margin-bottom: 20px;
+      margin: 20px auto; /* Center carousel horizontally */
+      max-width: 90%; /* Constrain width */
+      overflow: hidden; /* Prevent overflow */
     }
 
     .carousel-content {
-      margin: 20px auto;
-      max-width: 90%;
-      height: auto;
+      display: flex; /* Use flexbox to center content */
+      flex-direction: column; /* Stack items vertically */
+      align-items: center; /* Center items */
+      width: 100%; /* Full width */
     }
 
     .image {
